@@ -1,6 +1,7 @@
 import './App.css'
 import Content from './components/Content/Content'
 import RainbowLine from './components/RainbowLine/RainbowLine'
+import '../i18n.js'
 
 function App() {
 

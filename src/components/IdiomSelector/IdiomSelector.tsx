@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import i18n from '../../../i18n.js';
 
 const IdiomSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -8,12 +9,20 @@ const IdiomSelector = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  const idiomDictionary: {[chave: string]: string} = {
+    "Português": 'pt',
+    "English": 'en',
+    "Español": 'es',
+    "Français": 'fr',
+  }
+
   const handleIdiomSelect = (idiom: string) => {
     setSelectedIdiom(idiom);
+    i18n.changeLanguage(idiomDictionary[idiom]);
     setIsDropdownOpen(false); // Fechar o dropdown após selecionar um idioma
   };
 
-  const idiomOptions = ['Português', 'Inglês', 'Espanhol', 'Francês']; // Adicione as opções de idioma desejadas aqui
+  const idiomOptions = ['Português', 'English', 'Español', 'Français']; // Adicione as opções de idioma desejadas aqui
 
   return (
     <div className="relative inline-block">
@@ -30,7 +39,7 @@ const IdiomSelector = () => {
           {idiomOptions.map((idiom) => (
             <div
               key={idiom}
-              className="cursor-pointer hover:bg-gray-100 p-1"
+              className="cursor-pointer hover:bg-[#2E64C1] py-[4px] px-[8px] rounded-[5px] hover:text-white"
               onClick={() => handleIdiomSelect(idiom)}
             >
               {idiom}
