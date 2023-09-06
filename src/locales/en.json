@@ -1,3 +1,10 @@
 {
-    "dev": "./pic&name.png"
+    "dev": "./pic&name.png",
+    "sobre": "About me",
+    "projetos": "Projects",
+    "cv": "CV",
+    "feedbacks": "Feedbacks",
+    "fale": "Contact me",
+    "mail": "contact@thalesfraga.dev",
+    "buscar": "./search.png"
 }
