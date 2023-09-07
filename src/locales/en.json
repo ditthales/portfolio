@@ -1,10 +1,15 @@
 {
     "dev": "./pic&name.png",
     "sobre": "About me",
+    "about": "About",
+    "me": "me",
     "projetos": "Projects",
     "cv": "CV",
     "feedbacks": "Feedbacks",
     "fale": "Contact me",
     "mail": "contact@thalesfraga.dev",
-    "buscar": "./search.png"
+    "buscar": "./search.png",
+    "text_about_me1": "Hello! My name is Thales, and I'm an app developer for Apple platforms, passionate about creating innovative and intuitive solutions. With experience in Swift, UIKit (storyboard and programmatic UI), and SwiftUI, I'm always looking for ways to optimize the development process to create more efficient and effective apps.",
+    "text_about_me2": "I hold a degree in Analysis and Systems Development, and I'm currently pursuing degrees in Computer Science and Computer Engineering. I'm a highly motivated, tech-savvy individual who is enthusiastic and passionate about technology. I'm always eager to learn and explore new ideas.",
+    "skills": "Skills"
 }

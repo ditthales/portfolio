@@ -31,7 +31,7 @@ const Content = () => {
     return(
         <div className=" flex flex-col gap-[80px] w-full items-start" style={containerStyle}>
             <MacMenu windowWidth={windowWidth}/>
-            <AboutMe windowWidth={windowWidth} />
+            <div id="about"><AboutMe windowWidth={windowWidth} /></div>
         </div>
     )
 }

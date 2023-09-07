@@ -1,10 +1,15 @@
 {
     "dev": "./photo&prenom.png",
     "sobre": "À propos de moi",
+    "about": "À propos",
+    "me": "de moi",
     "projetos": "Projets",
     "cv": "CV",
     "feedbacks": "Retours",
     "fale": "Contactez-moi",
     "mail": "contact@thalesfraga.dev",
-    "buscar": "./rechercher.png"
+    "buscar": "./rechercher.png",
+    "text_about_me1": "Bonjour ! Je m'appelle Thales, et je suis un développeur d'applications pour les plateformes Apple, passionné par la création de solutions innovantes et intuitives. Avec de l'expérience en Swift, UIKit (storyboard et programmatic UI) et SwiftUI, je recherche toujours des moyens d'optimiser le processus de développement pour créer des applications plus efficaces et performantes.",
+    "text_about_me2": "Je suis titulaire d'un diplôme en Analyse et Développement de Systèmes, et je poursuis actuellement des études en Sciences de l'Informatique et en Génie Informatique. Je suis une personne hautement motivée, enthousiaste et passionnée par la technologie, toujours prête à apprendre et à explorer de nouvelles idées.",
+    "skills": "Competénces"
 }
