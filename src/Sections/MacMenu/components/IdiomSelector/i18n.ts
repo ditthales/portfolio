@@ -2,10 +2,10 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import translationEN from '/src/locales/en.json'; // Arquivo de tradução em inglês
-import translationES from '/src/locales/es.json'; // Arquivo de tradução em espanhol
-import translationPT from '/src/locales/pt.json'; // Arquivo de tradução em português
-import translationFR from '/src/locales/fr.json'; // Arquivo de tradução em francês
+import translationEN from '../../../../locales/en.json'; // Arquivo de tradução em inglês
+import translationES from '../../../../locales/es.json'; // Arquivo de tradução em espanhol
+import translationPT from '../../../../locales/pt.json'; // Arquivo de tradução em português
+import translationFR from '../../../../locales/fr.json'; // Arquivo de tradução em francês
 
 i18n
   .use(initReactI18next)

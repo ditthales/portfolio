@@ -1,6 +1,6 @@
 
-import LeftSide from "../LeftSide/LeftSide";
-import RightSide from "../RightSide/RightSide";
+import LeftSide from "./components/LeftSide/LeftSide";
+import RightSide from "./components/RightSide/RightSide";
 
 
 const MacMenu = (props:{windowWidth: number}) => {

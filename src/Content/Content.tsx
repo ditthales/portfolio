@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
-import MacMenu from "../MacMenu/MacMenu";
+import MacMenu from "../Sections/MacMenu/MacMenu";
+import AboutMe from "../Sections/AboutMe/AboutMe";
 
 
 const Content = () => {
@@ -30,6 +31,7 @@ const Content = () => {
     return(
         <div className=" flex flex-col gap-[80px] w-full items-start" style={containerStyle}>
             <MacMenu windowWidth={windowWidth}/>
+            <AboutMe windowWidth={windowWidth} />
         </div>
     )
 }
