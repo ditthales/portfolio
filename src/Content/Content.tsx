@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import MacMenu from "../Sections/MacMenu/MacMenu";
 import AboutMe from "../Sections/AboutMe/AboutMe";
+import Projects from "../Sections/Projects/Projects";
+import ContactMe from "../Sections/ContactMe/ContactMe";
 
 
 const Content = () => {
@@ -30,8 +32,10 @@ const Content = () => {
 
     return(
         <div className=" flex flex-col gap-[80px] w-full items-start" style={containerStyle}>
-            <MacMenu windowWidth={windowWidth}/>
+            <div className="w-full" id="menu"><MacMenu windowWidth={windowWidth}/></div>
             <div id="about"><AboutMe windowWidth={windowWidth} /></div>
+            <div id="portfolio" className="w-full"><Projects /></div>
+            <div id="fale" className="w-full"><ContactMe /></div>
         </div>
     )
 }

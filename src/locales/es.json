@@ -11,5 +11,7 @@
     "buscar": "./buscar.png",
     "text_about_me1": "¡Hola! Mi nombre es Thales y soy un desarrollador de aplicaciones para plataformas de Apple apasionado por crear soluciones innovadoras e intuitivas. Con experiencia en Swift, UIKit (storyboard y programmatic UI) y SwiftUI, siempre estoy buscando formas de optimizar el proceso de desarrollo para crear aplicaciones más eficientes y efectivas.",
     "text_about_me2": "Soy graduado en Análisis y Desarrollo de Sistemas y actualmente estoy cursando estudios en Ciencias de la Computación e Ingeniería de la Computación. Soy una persona altamente motivada, entusiasta y apasionada por la tecnología, y siempre estoy dispuesto a aprender y experimentar nuevas ideas.",
-    "skills": "Habilidades"
+    "skills": "Habilidades",
+    "viewcode": "Programmatic UI",
+    "language": "es"
 }
