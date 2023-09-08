@@ -16,7 +16,7 @@ const ProjectCard = (props:{project:Project}) => {
                 )
                 )}
             </div>
-            <img src={`./${t('language')}_${props.project.img}`}></img>
+            <img src={`./${t('language')}_${props.project.img}`} className=" rounded-[16px]"></img>
             <div className="h-[50px] flex flex-wrap gap-[4px] overflow-hidden">
                 {props.project.links.map((link, index) => (
                     <TextLink key={index} link={link} />
