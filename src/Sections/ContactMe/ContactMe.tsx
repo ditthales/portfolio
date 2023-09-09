@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 
 const ContactMe = () => {
@@ -9,6 +10,7 @@ const ContactMe = () => {
         <div className="flex flex-col gap-[24px] w-full">
             <h2 className="text-[24px] text-[#464444] font-semibold">{t('fale')}</h2>
             <div className=" flex flex-col gap-[11px] items-center justify-start w-full">
+                <ContactForm />
                 <div className=" flex flex-col gap-[0px] items-center justify-start w-full">
                     <p className="w-full text-center font-semibold text-[16px]">Thales Fraga</p>
                     <a href={`mailto:${t('mail')}`} target="_blank">
