@@ -13,5 +13,14 @@
     "text_about_me2": "Sou formado em Análise e Desenvolvimento de Sistemas e estou cursando Ciência da Computação e Engenharia da Computação. Sou uma pessoa altamente motivada, entusiasta e apaixonada por tecnologia, e estou sempre disposto a aprender e experimentar novas ideias.",
     "skills": "Habilidades",
     "viewcode": "ViewCode",
-    "language": "pt"
+    "language": "pt",
+    "nome": "Nome",
+    "email": "Endereço de e-mail",
+    "mensagem": "Sua mensagem",
+    "enviar": "Enviar",
+    "enviado": "Mensagem enviada!",
+    "nao_enviado": "Não foi possível enviar, tente novamente!",
+    "placeholder_nome": "Meu Nome",
+    "placeholder_email": "meuemail@exemplo.com",
+    "placeholder_mensagem": "Sua mensagem aqui..."
 }

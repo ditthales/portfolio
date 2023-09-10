@@ -13,5 +13,14 @@
     "text_about_me2": "Soy graduado en Análisis y Desarrollo de Sistemas y actualmente estoy cursando estudios en Ciencias de la Computación e Ingeniería de la Computación. Soy una persona altamente motivada, entusiasta y apasionada por la tecnología, y siempre estoy dispuesto a aprender y experimentar nuevas ideas.",
     "skills": "Habilidades",
     "viewcode": "Programmatic UI",
-    "language": "es"
+    "language": "es",
+    "nome": "Nombre",
+    "email": "Correo electrónico",
+    "mensagem": "Mensaje",
+    "enviar": "Enviar",
+    "enviado": "¡Mensaje enviado con éxito!",
+    "nao_enviado": "¡No se pudo enviar el mensaje! Inténtalo de nuevo.",
+    "placeholder_nome": "Mi Nombre",
+    "placeholder_email": "miemail@ejemplo.com",
+    "placeholder_mensagem": "Tu mensaje aquí"
 }

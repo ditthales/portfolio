@@ -13,5 +13,14 @@
     "text_about_me2": "Je suis titulaire d'un diplôme en Analyse et Développement de Systèmes, et je poursuis actuellement des études en Sciences de l'Informatique et en Génie Informatique. Je suis une personne hautement motivée, enthousiaste et passionnée par la technologie, toujours prête à apprendre et à explorer de nouvelles idées.",
     "skills": "Competénces",
     "viewcode": "Programmatic UI",
-    "language": "fr"
+    "language": "fr",
+    "nome": "Nom complet",
+    "email": "Couriel",
+    "mensagem": "Message",
+    "enviar": "Envoyer",
+    "enviado": "Message envoyé avec succès!",
+    "nao_enviado": "Échec de l'envoi du message! Veuillez réessayer.",
+    "placeholder_nome": "Prénom et Nom",
+    "placeholder_email": "monemail@exemple.com",
+    "placeholder_mensagem": "Votre message ici..."
 }

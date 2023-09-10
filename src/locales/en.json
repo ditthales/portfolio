@@ -13,5 +13,14 @@
     "text_about_me2": "I hold a degree in Analysis and Systems Development, and I'm currently pursuing degrees in Computer Science and Computer Engineering. I'm a highly motivated, tech-savvy individual who is enthusiastic and passionate about technology. I'm always eager to learn and explore new ideas.",
     "skills": "Skills",
     "viewcode": "Programmatic UI",
-    "language": "en"
+    "language": "en",
+    "nome": "Name",
+    "email": "E-mail address",
+    "mensagem": "Your Message",
+    "enviar": "Send",
+    "enviado": "Message sent!",
+    "nao_enviado": "Sorry! Message not sent. Try Again!",
+    "placeholder_nome": "My Name",
+    "placeholder_email": "myemail@example.com",
+    "placeholder_mensagem": "Your message here..."
 }

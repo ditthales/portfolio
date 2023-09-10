@@ -1,9 +1,11 @@
 import { useForm, ValidationError } from '@formspree/react';
 import Input from '../Input/Input';
 import Textarea from '../TextArea/TextArea';
+import { useTranslation } from 'react-i18next';
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("xjvqrdka");
-  const handleState = () => {
+    const { t } = useTranslation()
+    const [state, handleSubmit] = useForm("xjvqrdka");
+    const handleState = () => {
     if (state.submitting){
         return "bg-gray-500 hover:bg-gray-700 disabled cursor-not-allowed"
     }else if (state.succeeded){
@@ -16,27 +18,27 @@ const ContactForm = () => {
   }
   const handleLabel = () => {
     if (state.submitting){
-        return "Enviando..."
+        return t('enviando')
     }else if (state.succeeded){
-        return "Enviado com sucesso"
+        return t('enviado')
     }else if (state.errors){
-        return "Não enviado, tente novamente"
+        return t('nao_enviado')
     } else {
-        return "Enviar"
+        return t('enviar')
     }
   }
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return (<p>Mensagem enviada com sucesso</p>)
   }
   return (
     <form onSubmit={handleSubmit} className='w-full flex justify-center items-center'>
         <div className='flex flex-col gap-[8px] items-start justify-start w-full'>
             <Input
-                label='Name'
+                label={t('nome')}
                 id="name"
                 type="name" 
                 name="name"
-                placeholder='Your Name'
+                placeholder={t('placeholder_nome')}
             />
             <ValidationError 
                 prefix="Name" 
@@ -44,11 +46,11 @@ const ContactForm = () => {
                 errors={state.errors}
             />
             <Input
-                label='Email Address'
+                label={t('email')}
                 id="email"
                 type="email" 
                 name="email"
-                placeholder='myemail@example.com'
+                placeholder={t('placeholder_email')}
             />
             <ValidationError 
                 prefix="Email" 
@@ -56,10 +58,10 @@ const ContactForm = () => {
                 errors={state.errors}
             />
             <Textarea
-                label='Your Message'
+                label={t('mensagem')}
                 id="message"
                 name="message"
-                placeholder='Your Message'
+                placeholder={t('placeholder_mensagem')}
             />
             <ValidationError 
                 prefix="Message" 
