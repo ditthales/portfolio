@@ -11,7 +11,7 @@ const ContactMe = () => {
             <h2 className="text-[24px] text-[#464444] font-semibold">{t('fale')}</h2>
             <div className=" flex flex-col gap-[11px] items-center justify-start w-full">
                 <ContactForm />
-                <div className=" flex flex-col gap-[0px] items-center justify-start w-full">
+                <div className=" flex flex-col gap-[0px] items-center justify-start w-full pt-[24px]">
                     <p className="w-full text-center font-semibold text-[16px]">Thales Fraga</p>
                     <a href={`mailto:${t('mail')}`} target="_blank">
                         <p className="w-full text-center text-[12px] text-[#2E64C1] underline">{t('mail')}</p>

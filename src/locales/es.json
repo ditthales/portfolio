@@ -9,8 +9,9 @@
     "fale": "Contáctame",
     "mail": "contact@thalesfraga.dev",
     "buscar": "./buscar.png",
-    "text_about_me1": "¡Hola! Mi nombre es Thales y soy un desarrollador de aplicaciones para plataformas de Apple apasionado por crear soluciones innovadoras e intuitivas. Con experiencia en Swift, UIKit (storyboard y programmatic UI) y SwiftUI, siempre estoy buscando formas de optimizar el proceso de desarrollo para crear aplicaciones más eficientes y efectivas.",
-    "text_about_me2": "Soy graduado en Análisis y Desarrollo de Sistemas y actualmente estoy cursando estudios en Ciencias de la Computación e Ingeniería de la Computación. Soy una persona altamente motivada, entusiasta y apasionada por la tecnología, y siempre estoy dispuesto a aprender y experimentar nuevas ideas.",
+    "text_about_me1": "¡Hola! Mi nombre es Thales Fraga, y soy un desarrollador de iOS apasionado por los desafíos tecnológicos. Actualmente, estoy cursando la carrera de Ingeniería en Computación en la Universidad Federal de Pernambuco (UFPE). Además, tengo un título en Análisis y Desarrollo de Sistemas y tengo la oportunidad de ser parte de la Apple Developer Academy (@appledeveloperacademy.ufpe).",
+    "text_about_me2": "Tengo un gran interés en aprender constantemente y explorar nuevas experiencias. Tengo afinidad por la geografía e idiomas, siendo capaz de comunicarme en inglés, francés y español, además de mi lengua materna, el portugués. Una experiencia significativa en mi vida fue mi intercambio a Corrientes, Argentina, donde pasé 45 días dedicado a enseñar a niños y jóvenes en situación de vulnerabilidad socioeconómica. Fue una experiencia transformadora, y siento que marqué la diferencia en la vida de estos jóvenes. Además, tengo habilidades para la organización y coordinación de eventos. Participé activamente en la organización del Open Day de la UFPE, un evento que reunió a más de 500 personas en el Centro de Informática de la universidad. Fue una oportunidad increíble para conectar a las personas y compartir conocimiento.",
+    "text_about_me3": "En mi tiempo libre, disfruto de diferentes tipos de desafíos, como jugar League of Legends y Minecraft. De hecho, tengo un proyecto de un decodificador binario para una pantalla de 7 segmentos hecho completamente con redstone que puedes ver aquí.",
     "skills": "Habilidades",
     "viewcode": "Programmatic UI",
     "language": "es",
@@ -25,7 +26,8 @@
     "placeholder_mensagem": "Tu mensaje aquí",
     "feedback_gui": "”Tuve la oportunidad de trabajar con Thales en un proyecto relacionado con pruebas automatizadas en Swift, donde construimos una aplicación desde cero, practicando la metodología TDD en cada paso. A lo largo de todo el proyecto, Thales demostró ser un miembro del equipo dedicado, curioso y proactivo, colaborando en todas las fases del proyecto y manteniéndose comprometido durante todo el proceso. Además, Thales realizó contribuciones ejemplares en el desarrollo de nuestro producto final, demostrando un conocimiento práctico de la programación, y juntos produjimos un excelente pitch educativo de alta calidad. Más allá de los límites de este proyecto, puedo ver en nuestro entorno de pasantía que Thales es altamente respetado y apreciado, reconocido por su arduo trabajo, habilidades técnicas en desarrollo y diseño, creatividad, contribución a los procesos de innovación del producto y su disposición para ayudar a los demás. Finalmente, expreso mi admiración por Thales, tanto como persona como profesional, y creo que tendrá un gran éxito en su carrera profesional.”",
     "feedback_migge": "”Tuve la oportunidad de trabajar en varios proyectos con Thales, y en todos ellos siempre hubo mucho aprendizaje. Creo que la mejor forma de describir su desempeño sería con la palabra 'Dedicado'. Thales siempre mostraba una actitud proactiva, interesada, observadora y servicial en el desarrollo de proyectos, sabiendo cómo comunicarse y expresar su opinión de manera asertiva. Además de ser muy trabajador, Thales posee una excelente competencia para comprender sistemas y proponer soluciones creativas a problemas complejos. También es altamente persistente y resiliente, lo que lo convierte en un desarrollador de código destacado.”",
-    "que_pensam": "¿Qué piensan mis colegas?"
+    "que_pensam": "¿Qué piensan mis colegas?",
+    "aqui": "aquí"
 
 
 }

@@ -9,8 +9,9 @@
     "fale": "Contact me",
     "mail": "contact@thalesfraga.dev",
     "buscar": "./search.png",
-    "text_about_me1": "Hello! My name is Thales, and I'm an app developer for Apple platforms, passionate about creating innovative and intuitive solutions. With experience in Swift, UIKit (storyboard and programmatic UI), and SwiftUI, I'm always looking for ways to optimize the development process to create more efficient and effective apps.",
-    "text_about_me2": "I hold a degree in Analysis and Systems Development, and I'm currently pursuing degrees in Computer Science and Computer Engineering. I'm a highly motivated, tech-savvy individual who is enthusiastic and passionate about technology. I'm always eager to learn and explore new ideas.",
+    "text_about_me1": "Hello! My name is Thales Fraga, and I am an iOS developer passionate about technological challenges. Currently, I am pursuing a degree in Computer Engineering at the Federal University of Pernambuco (UFPE). Additionally, I hold a degree in Systems Analysis and Development and have the opportunity to be a part of the Apple Developer Academy (@appledeveloperacademy.ufpe).",
+    "text_about_me2": "I have a keen interest in constant learning and exploring new experiences. I have an affinity for geography and languages, being able to communicate in English, French, and Spanish, in addition to Portuguese, my native language. A significant experience in my life was my exchange program to Corrientes, Argentina, where I spent 45 days dedicated to teaching children and young people in socio-economic vulnerability. It was a transformative experience, and I feel that I made a difference in the lives of these young individuals. Furthermore, I have a knack for organizing and coordinating events. I actively participated in the organization of UFPE's Open Day, an event that brought together more than 500 people at the university's Center for Informatics. It was an incredible opportunity to connect people and share knowledge.",
+    "text_about_me3": "In my free time, I enjoy different kinds of challenges, such as playing League of Legends and Minecraft. In fact, I have a project for a binary decoder for a 7-segment display entirely made with redstone that you can check out here.",
     "skills": "Skills",
     "viewcode": "Programmatic UI",
     "language": "en",
@@ -25,7 +26,8 @@
     "placeholder_mensagem": "Your message here...",
     "feedback_gui": "”I had the opportunity to work with Thales on a project involving automated testing in Swift, where we built an application from scratch, practicing the TDD methodology at every step. Throughout, Thales proved to be a dedicated, curious, and proactive team member, collaborating in all project phases and remaining engaged throughout the process. Additionally, Thales made exemplary contributions to the development of our final product, demonstrating practical coding knowledge, and together, we produced an excellent quality educational pitch. Beyond the confines of this project, I can see in our internship environment that Thales is well-respected and highly regarded, recognized for his hard work, technical skills in development and design, creativity, and contribution to product innovation processes, as well as his willingness to assist others. Finally, I express my admiration for Thales, both as a person and a professional, and I believe he will have great success in his professional life.”",
     "feedback_migge": "”I had the opportunity to work on several projects with Thales, and in all of them, there was always a great deal of learning involved. I believe the best way to describe his performance would be with the word 'Dedicated.' Thales always displayed a proactive, interested, observant, and helpful attitude in project development, knowing how to communicate and express his opinion assertively. In addition to being very hardworking, Thales possesses excellent competence in understanding systems and proposing creative solutions to complex problems. He is also highly persistent and resilient, making him a standout code developer.”",
-    "que_pensam": "What do my colleagues think?"
+    "que_pensam": "What do my colleagues think?",
+    "aqui": "here"
 
 
 }

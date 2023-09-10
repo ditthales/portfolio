@@ -17,19 +17,19 @@ export const PROJECTS: Project[] = [
         links: [
             {
                 name: "App Store",
-                url: ""
+                url: "https://apps.apple.com/br/app/witchie/id6454296859"
             },
             {
                 name: "Instagram",
-                url: ""
+                url: "https://instagram.com/playwitchie?igshid=MzRlODBiNWFlZA=="
             },
             {
                 name: "TikTok",
-                url: ""
+                url: "https://www.tiktok.com/@playwitchie"
             },
             {
                 name: "Twitter",
-                url: ""
+                url: "https://x.com/playwitchie?s=11"
             }
         ]
     },
@@ -40,15 +40,15 @@ export const PROJECTS: Project[] = [
         links: [
             {
                 name: "GitHub",
-                url: ""
+                url: "https://github.com/ditthales/InASheetOfPaper"
             },
             {
                 name: "Medium",
-                url: ""
+                url: "https://medium.com/p/97592aa9a670"
             },
             {
                 name: "Website",
-                url: ""
+                url: "https://www.wwdcscholars.com/s/ED32639C-D086-4472-8438-2778B87FB1B0/2023"
             },
         ]
     },
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
         links: [
             {
                 name: "GitHub",
-                url: ""
+                url: "https://github.com/gabrielfelipo/Receitinha"
             },
         ]
     },
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
         links: [
             {
                 name: "GitHub",
-                url: ""
+                url: "https://github.com/miggelucas/Naturia"
             },
         ]
     },
@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
         links: [
             {
                 name: "GitHub",
-                url: ""
+                url: "https://github.com/miggelucas/FarfaleDelas"
             },
         ]
     }
