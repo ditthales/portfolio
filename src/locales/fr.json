@@ -22,5 +22,10 @@
     "nao_enviado": "Échec de l'envoi du message! Veuillez réessayer.",
     "placeholder_nome": "Prénom et Nom",
     "placeholder_email": "monemail@exemple.com",
-    "placeholder_mensagem": "Votre message ici..."
+    "placeholder_mensagem": "Votre message ici...",
+    "feedback_gui": "”J'ai eu l'opportunité de travailler avec Thales sur un projet impliquant des tests automatisés en Swift, où nous avons construit une application à partir de zéro, en pratiquant la méthodologie TDD à chaque étape. Tout au long du projet, Thales s'est révélé être un membre dévoué, curieux et proactif de l'équipe, collaborant à toutes les phases du projet et restant engagé tout au long du processus. De plus, Thales a apporté d'exemplaires contributions au développement de notre produit final, démontrant une connaissance pratique de la programmation, et ensemble, nous avons produit un pitch éducatif d'excellente qualité. Au-delà des limites de ce projet, je peux constater dans notre environnement de stage que Thales est très respecté et hautement estimé, reconnu pour son travail acharné, ses compétences techniques en développement et en conception, sa créativité, sa contribution aux processus d'innovation produit, ainsi que sa volonté d'aider les autres. Enfin, j'exprime mon admiration pour Thales, en tant que personne et en tant que professionnel, et je crois qu'il connaîtra un grand succès dans sa carrière professionnelle.”",
+    "feedback_migge": "”J'ai eu l'opportunité de travailler sur plusieurs projets avec Thales, et dans tous ces projets, il y avait toujours beaucoup d'apprentissage. Je pense que la meilleure façon de décrire sa performance serait avec le mot 'Dévoué.' Thales a toujours fait preuve d'une attitude proactive, intéressée, observatrice et serviable dans le développement des projets, sachant comment communiquer et exprimer son opinion de manière assertive. En plus d'être très travailleur, Thales possède une excellente compétence pour comprendre les systèmes et proposer des solutions créatives à des problèmes complexes. Il est également très persévérant et résilient, ce qui en fait un développeur de code exceptionnel.”",
+    "que_pensam": "Que pensent mes collègues?"
+
+
 }

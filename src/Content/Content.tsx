@@ -4,6 +4,7 @@ import MacMenu from "../Sections/MacMenu/MacMenu";
 import AboutMe from "../Sections/AboutMe/AboutMe";
 import Projects from "../Sections/Projects/Projects";
 import ContactMe from "../Sections/ContactMe/ContactMe";
+import Feedbacks from "../Sections/Feedbacks/Feedbacks";
 
 
 const Content = () => {
@@ -35,6 +36,7 @@ const Content = () => {
             <div className="w-full" id="menu"><MacMenu windowWidth={windowWidth}/></div>
             <div id="about"><AboutMe windowWidth={windowWidth} /></div>
             <div id="portfolio" className="w-full"><Projects /></div>
+            <div id="feedbacks" className="w-full"><Feedbacks windowWidth={windowWidth} /></div>
             <div id="fale" className="w-full"><ContactMe /></div>
         </div>
     )

@@ -22,5 +22,10 @@
     "nao_enviado": "¡No se pudo enviar el mensaje! Inténtalo de nuevo.",
     "placeholder_nome": "Mi Nombre",
     "placeholder_email": "miemail@ejemplo.com",
-    "placeholder_mensagem": "Tu mensaje aquí"
+    "placeholder_mensagem": "Tu mensaje aquí",
+    "feedback_gui": "”Tuve la oportunidad de trabajar con Thales en un proyecto relacionado con pruebas automatizadas en Swift, donde construimos una aplicación desde cero, practicando la metodología TDD en cada paso. A lo largo de todo el proyecto, Thales demostró ser un miembro del equipo dedicado, curioso y proactivo, colaborando en todas las fases del proyecto y manteniéndose comprometido durante todo el proceso. Además, Thales realizó contribuciones ejemplares en el desarrollo de nuestro producto final, demostrando un conocimiento práctico de la programación, y juntos produjimos un excelente pitch educativo de alta calidad. Más allá de los límites de este proyecto, puedo ver en nuestro entorno de pasantía que Thales es altamente respetado y apreciado, reconocido por su arduo trabajo, habilidades técnicas en desarrollo y diseño, creatividad, contribución a los procesos de innovación del producto y su disposición para ayudar a los demás. Finalmente, expreso mi admiración por Thales, tanto como persona como profesional, y creo que tendrá un gran éxito en su carrera profesional.”",
+    "feedback_migge": "”Tuve la oportunidad de trabajar en varios proyectos con Thales, y en todos ellos siempre hubo mucho aprendizaje. Creo que la mejor forma de describir su desempeño sería con la palabra 'Dedicado'. Thales siempre mostraba una actitud proactiva, interesada, observadora y servicial en el desarrollo de proyectos, sabiendo cómo comunicarse y expresar su opinión de manera asertiva. Además de ser muy trabajador, Thales posee una excelente competencia para comprender sistemas y proponer soluciones creativas a problemas complejos. También es altamente persistente y resiliente, lo que lo convierte en un desarrollador de código destacado.”",
+    "que_pensam": "¿Qué piensan mis colegas?"
+
+
 }
