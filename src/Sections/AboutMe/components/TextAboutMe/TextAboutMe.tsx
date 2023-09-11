@@ -22,15 +22,15 @@ const TextAboutMe = () => {
         <div className="flex flex-row gap-[10px]">
             <div className="w-px bg-black"></div>
             <div className="flex flex-col gap-[10px]">
-                <p className="text-[12px]">
+                <p className="text-[14px]">
                     {textoAntesDoLink1}
                     <a className="text-[#2E64C1] underline" href="https://www.instagram.com/appledeveloperacademy.ufpe/" target="_blank">
                         (@appledeveloperacademy.ufpe)
                     </a>
                     {textoDepoisDoLink1}
                 </p>
-                <p className="text-[12px]">{t('text_about_me2')}</p>
-                <p className="text-[12px]">
+                <p className="text-[14px]">{t('text_about_me2')}</p>
+                <p className="text-[14px]">
                     {textoAntesDoLink3}
                     <a className="text-[#2E64C1] underline" href="https://youtu.be/GjBk_YC-9P8" target="_blank">
                         {t('aqui')}

@@ -9,7 +9,7 @@ const Projects = () => {
 
     return(
         <div className="flex flex-col gap-[24px] w-full">
-            <h2 className="text-[24px] text-[#464444] font-semibold">{t('projetos')}</h2>
+            <h2 className="text-[28px] text-[#464444] font-semibold">{t('projetos')}</h2>
             <ProjectCard project={PROJECTS[0]} />
             <ProjectList />
         </div>

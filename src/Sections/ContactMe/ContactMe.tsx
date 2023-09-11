@@ -8,7 +8,7 @@ const ContactMe = () => {
 
     return(
         <div className="flex flex-col gap-[24px] w-full">
-            <h2 className="text-[24px] text-[#464444] font-semibold">{t('fale')}</h2>
+            <h2 className="text-[28px] text-[#464444] font-semibold">{t('fale')}</h2>
             <div className=" flex flex-col gap-[11px] items-center justify-start w-full">
                 <ContactForm />
                 <div className=" flex flex-col gap-[0px] items-center justify-start w-full pt-[24px]">

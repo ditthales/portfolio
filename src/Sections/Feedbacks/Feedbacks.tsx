@@ -11,7 +11,7 @@ const Feedbacks = (props: {windowWidth:number}) => {
     if (props.windowWidth > 1024) {
         return(
             <div className="flex flex-col gap-[24px]">
-                <h3 className=" font-semibold text-[24px]">{t('feedbacks')}</h3>
+                <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
                 <div className="flex flex-row justify-between">
                     <FeedbackGui text={t('feedback_gui')}/>
                     <div className="flex flex-col gap-[10px]">
@@ -23,6 +23,8 @@ const Feedbacks = (props: {windowWidth:number}) => {
         )
     }else{
         return(
+            <div className="flex flex-col gap-[24px]">
+            <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
             <div className="flex flex-col gap-[10px]">
                 <div className="flex flex-row-reverse w-full">
                     <div className="flex-grow"></div>
@@ -32,6 +34,7 @@ const Feedbacks = (props: {windowWidth:number}) => {
                     <div className="flex-grow"></div>
                     <FeedbackMigge text={t('feedback_migge')}/>
                 </div>
+            </div>
             </div>
         )
     }

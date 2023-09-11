@@ -9,7 +9,7 @@ const FeedbackMigge = (props:{text:string}) => {
                     <img src="./foto_migge.png" className="w-[40px]"></img>
                     <h3 className="text-[16px] font-semibold">Lucas Migge</h3>
                 </div>
-                <p className="text-[12px] text-end">{props.text}</p>
+                <p className="text-[14px] text-end">{props.text}</p>
             </div>
         </div>
     )

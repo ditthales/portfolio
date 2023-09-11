@@ -9,7 +9,7 @@ const FeedbackGui = (props:{text:string}) => {
                     <img src="./foto_gui.png" className="w-[40px]"></img>
                     <h3 className="text-[16px] font-semibold">Guilherme Souza</h3>
                 </div>
-                <p className="text-[12px]">{props.text}</p>
+                <p className="text-[14px]">{props.text}</p>
             </div>
         </div>
     )

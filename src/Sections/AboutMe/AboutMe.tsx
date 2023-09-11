@@ -19,8 +19,8 @@ const AboutMe = (props:{windowWidth:number}) => {
         <div className="flex flex-row" style={containerStyle}>
             <div className="flex flex-col gap-[24px] w-full">
                 <div className="flex flex-col gap-0">
-                    <h2 className="text-[24px] font-semibold text-[#464444]">{t('about')}</h2>
-                    <h2 className="text-[24px] font-semibold text-[#464444]">{t('me')}</h2>
+                    <h2 className="text-[28px] font-semibold text-[#464444]">{t('about')}</h2>
+                    <h2 className="text-[28px] font-semibold text-[#464444]">{t('me')}</h2>
                 </div>
                 <TextAboutMe />
                 <h2 className="text-[20px] font-semibold text-[#464444]">{t('skills')}</h2>

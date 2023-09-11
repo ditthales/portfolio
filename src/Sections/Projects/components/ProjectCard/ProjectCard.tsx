@@ -9,7 +9,7 @@ const ProjectCard = (props:{project:Project}) => {
 
     return(
         <div className="flex flex-col gap-[16px] w-full">
-            <h3 className=" font-medium text-[18px] text-[#464444] w-[240px]">{props.project.name}</h3>
+            <h3 className=" font-medium text-[20px] text-[#464444] w-[240px]">{props.project.name}</h3>
             <div className="h-[50px] flex flex-wrap gap-[4px] overflow-hidden">
                 {props.project.tags.map((tag, index) => (
                     <Tag key={index} label={tag} />
