@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import i18n from './i18n.js'
+import i18n from '../../../../1. locales/i18n.js'
 
 const IdiomSelector = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

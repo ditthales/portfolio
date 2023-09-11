@@ -1,10 +1,10 @@
 
 import { useEffect, useState } from "react";
-import MacMenu from "../Sections/MacMenu/MacMenu";
-import AboutMe from "../Sections/AboutMe/AboutMe";
-import Projects from "../Sections/Projects/Projects";
-import ContactMe from "../Sections/ContactMe/ContactMe";
-import Feedbacks from "../Sections/Feedbacks/Feedbacks";
+import MacMenu from "../2. Sections/1. MacMenu/MacMenu";
+import AboutMe from "../2. Sections/2. AboutMe/AboutMe";
+import Projects from "../2. Sections/3. Projects/Projects";
+import ContactMe from "../2. Sections/6. ContactMe/ContactMe";
+import Feedbacks from "../2. Sections/5. Feedbacks/Feedbacks";
 
 
 const Content = () => {

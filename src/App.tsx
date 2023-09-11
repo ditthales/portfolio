@@ -1,7 +1,7 @@
 import './App.css'
-import Content from './Content/Content.js'
-import RainbowLine from './components/RainbowLine/RainbowLine'
-import './Sections/MacMenu/components/IdiomSelector/i18n.js'
+import Content from './3. Content/Content.js'
+import RainbowLine from './3. Content/RainbowLine.js'
+import './1. locales/i18n.js'
 
 function App() {
 
