@@ -20,7 +20,7 @@ const TextAboutMe = () => {
 
     return(
         <div className="flex flex-row gap-[10px]">
-            <div className="w-px bg-black"></div>
+            <div className="w-[10px] bg-black"></div>
             <div className="flex flex-col gap-[10px]">
                 <p className="text-[14px]">
                     {textoAntesDoLink1}
