@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Project } from "../../model/projects";
 import Tag from "../Tag/Tag";
 import TextLink from "../TextLink/TextLink";
+import VideoComponent from "../VideoComponent/VideoComponent";
 
 const ProjectCard = (props:{project:Project}) => {
 
@@ -16,7 +17,8 @@ const ProjectCard = (props:{project:Project}) => {
                 )
                 )}
             </div>
-            <img src={`./${t('language')}_${props.project.img}`} className=" rounded-[16px]"></img>
+            {/* <img src={`./${t('language')}_${props.project.img}`} className=" rounded-[16px]"></img> */}
+            <VideoComponent video={props.project.video} thumbnail={props.project.img}/>
             <div className="h-[50px] flex flex-wrap gap-[4px] overflow-hidden">
                 {props.project.links.map((link, index) => (
                     <TextLink key={index} link={link} />
