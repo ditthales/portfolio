@@ -1,12 +1,9 @@
-import { useTranslation } from "react-i18next";
 import { Project } from "../../model/projects";
 import Tag from "../Tag/Tag";
 import TextLink from "../TextLink/TextLink";
 import VideoComponent from "../VideoComponent/VideoComponent";
 
 const ProjectCard = (props:{project:Project}) => {
-
-    const { t } = useTranslation()
 
     return(
         <div className="flex flex-col gap-[16px] w-full">
