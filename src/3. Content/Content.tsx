@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import MacMenu from "../2. Sections/1. MacMenu/MacMenu";
 import AboutMe from "../2. Sections/2. AboutMe/AboutMe";
 import Projects from "../2. Sections/3. Projects/Projects";
+import CV from "../2. Sections/4. CV/CV";
 import ContactMe from "../2. Sections/6. ContactMe/ContactMe";
 import Feedbacks from "../2. Sections/5. Feedbacks/Feedbacks";
+
 
 
 const Content = () => {
@@ -36,6 +38,7 @@ const Content = () => {
             <div className="w-full" id="menu"><MacMenu windowWidth={windowWidth}/></div>
             <div id="about"><AboutMe windowWidth={windowWidth} /></div>
             <div id="portfolio" className="w-full"><Projects /></div>
+            <div id="cv" className="w-full"><CV windowWidth={windowWidth} /></div>
             <div id="feedbacks" className="w-full"><Feedbacks windowWidth={windowWidth} /></div>
             <div id="fale" className="w-full"><ContactMe /></div>
         </div>

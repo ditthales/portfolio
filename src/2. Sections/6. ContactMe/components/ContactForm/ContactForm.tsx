@@ -13,7 +13,7 @@ const ContactForm = () => {
     }else if (state.errors){
         return "bg-red-500 hover:bg-red-700"
     } else {
-        return "bg-blue-500 hover:bg-blue-700"
+        return "bg-[#2E64C1] hover:bg-blue-700"
     }
   }
   const handleLabel = () => {
