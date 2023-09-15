@@ -1,26 +1,30 @@
+import { useTranslation } from "react-i18next"
 import Experience from "./Experience"
 
 const Experiences = () => {
+
+    const { t } = useTranslation()
+
     return(
         <div className="flex flex-col gap-[10px] max-w-[382px]">
-            <h2 className="text-[18px] text-[#464444] font-semibold">Experiências</h2>
+            <h2 className="text-[18px] text-[#464444] font-semibold">{t('experiencias')}</h2>
             <Experience/>
-            <p className="text-[12px]">Projetos relacionados:
-                <a href="" className=" text-[#2E64C1] underline"> witchie</a>,
-                <a href="" className=" text-[#2E64C1] underline"> In a Sheet of Paper</a>,
-                <a href="" className=" text-[#2E64C1] underline"> Naturia</a>
+            <p className="text-[14px]">{t('projetos_relacionados')}:
+                <a href="https://apps.apple.com/br/app/witchie/id6454296859" className=" text-[#2E64C1] underline"> witchie</a>,
+                <a href="https://github.com/ditthales/InASheetOfPaper" className=" text-[#2E64C1] underline"> In a Sheet of Paper</a>,
+                <a href="https://github.com/miggelucas/Naturia" className=" text-[#2E64C1] underline"> Naturia</a>
             </p>
-            <p className="text-[12px]">Atividades realizadas:</p>
-            <ul className="list-disc list-inside">
-                <li className="text-[12px]">Desenvolvimento de aplicações iOS usando a linguagem Swift e seus frameworks.</li>
-                <li className="text-[12px]">Trabalho com equipes multidisciplinares.</li>
-                <li className="text-[12px]">Experiência em design e inovação</li>
-                <li className="text-[12px]">Trabalho com metodologias ágeis.</li>
-                <li className="text-[12px]">Versionamento e organização (Git e GitHub)</li>
-                <li className="text-[12px]">Publicação de aplicativos na App Store</li>
-                <li className="text-[12px]">Monetização de aplicações</li>
-                <li className="text-[12px]">Internacionalização de aplicações</li>
-                <li className="text-[12px]">Marketing de aplicações na App Store</li>
+            <p className="text-[14px]">{t('atividades_realizadas')}:</p>
+            <ul className="list-disc list-inside text-[14px]">
+                <li>{t('lista1')}</li>
+                <li>{t('lista2')}</li>
+                <li>{t('lista3')}</li>
+                <li>{t('lista4')}</li>
+                <li>{t('lista5')}</li>
+                <li>{t('lista6')}</li>
+                <li>{t('lista7')}</li>
+                <li>{t('lista8')}</li>
+                <li>{t('lista9')}</li>
             </ul>
         </div>
     )
