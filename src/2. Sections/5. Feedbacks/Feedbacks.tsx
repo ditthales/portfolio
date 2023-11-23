@@ -11,12 +11,14 @@ const Feedbacks = (props: {windowWidth:number}) => {
     if (props.windowWidth > 1024) {
         return(
             <div className="flex flex-col gap-[24px]">
-                <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
                 <div className="flex flex-row justify-between">
-                    <FeedbackGui text={t('feedback_gui')}/>
+                    <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
+                    <MemojiFeedbacks />
+                </div>
+                <div className="flex flex-row justify-between">
+                    <FeedbackGui text={t('feedback_gui')} name={"Guilherme Souza"} img={"./foto_gui.png"}/>
                     <div className="flex flex-col gap-[10px]">
-                        <MemojiFeedbacks />
-                        <FeedbackMigge text={t('feedback_migge')}/>
+                        <FeedbackGui text={t('feedback_migge')} name={"Lucas Migge"} img={"./foto_migge.png"}/>
                     </div>
                 </div>
             </div>  
@@ -28,11 +30,11 @@ const Feedbacks = (props: {windowWidth:number}) => {
             <div className="flex flex-col gap-[10px]">
                 <div className="flex flex-row-reverse w-full">
                     <div className="flex-grow"></div>
-                    <FeedbackGui text={t('feedback_gui')}/>
+                    <FeedbackGui text={t('feedback_gui')} name={"Guilherme Souza"} img={"./foto_gui.png"}/>
                 </div>
                 <div className="flex flex-row w-full">
                     <div className="flex-grow"></div>
-                    <FeedbackMigge text={t('feedback_migge')}/>
+                    <FeedbackGui text={t('feedback_migge')} name={"Lucas Migge"} img={"./foto_migge.png"}/>
                 </div>
             </div>
             </div>
