@@ -2,33 +2,46 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import translationEN from './en.json'; // Arquivo de tradução em inglês
-import translationES from './es.json'; // Arquivo de tradução em espanhol
-import translationPT from './pt.json'; // Arquivo de tradução em português
-import translationFR from './fr.json'; // Arquivo de tradução em francês
+const fetchTranslations = async (locale:string) => {
+  try {
+    const response = await fetch(`https://portfolio-back-74d75b4d278b.herokuapp.com/get${locale}JSON`);
+    const translations = await response.json();
+    return translations;
+  } catch (error) {
+    console.error('Error fetching translations:', error);
+    return {};
+  }
+};
 
-i18n
-  .use(initReactI18next)
-  .init({
-    resources: {
-      en: {
-        translation: translationEN,
-      },
-      es: {
-        translation: translationES,
-      },
-      pt: {
-        translation: translationPT,
-      },
-      fr: {
-        translation: translationFR,
-      }
-    },
-    lng: 'pt', // Idioma padrão
-    fallbackLng: 'pt', // Idioma de fallback
-    interpolation: {
-      escapeValue: false,
-    },
-  });
+const initI18n = async () => {
+  const translationEn = await fetchTranslations('En');
+  const translationEs = await fetchTranslations('Es');
+  const translationPt = await fetchTranslations('Pt');
+  const translationFr = await fetchTranslations('Fr');
 
-export default i18n;
+  await i18n
+    .use(initReactI18next)
+    .init({
+      resources: {
+        en: {
+          translation: translationEn,
+        },
+        es: {
+          translation: translationEs,
+        },
+        pt: {
+          translation: translationPt,
+        },
+        fr: {
+          translation: translationFr,
+        },
+      },
+      lng: 'pt', // Idioma padrão
+      fallbackLng: 'pt', // Idioma de fallback
+      interpolation: {
+        escapeValue: false,
+      },
+    });
+};
+
+export { initI18n, i18n as default };

@@ -1,45 +1,52 @@
 import { useTranslation } from "react-i18next";
 import FeedbackGui from "./components/FeedbackGui";
-import FeedbackMigge from "./components/FeedbackMigge";
 import MemojiFeedbacks from "./components/MemojiFeedbacks";
+import Carousel from "./components/Carousel";
+import { useEffect, useState } from "react";
+import { TestimonialInfo } from "./components/TestimonialsInfo";
 
 
 const Feedbacks = (props: {windowWidth:number}) => {
 
+    const [infoLoaded, setInfoLoaded] = useState(false);
+    const [testimonials, setTestimonials] = useState<TestimonialInfo[]>([]);
+
+    const fetchFeedbacks = async (): Promise<TestimonialInfo[]> => {
+        try {
+            const response = await fetch(`https://portfolio-back-74d75b4d278b.herokuapp.com/getTestimonials`);
+            const data: TestimonialInfo[] = await response.json();
+            console.log(data);
+            return data;
+        } catch (error) {
+            console.error('Error fetching translations:', error);
+            return [];
+        }
+    }
+
+    useEffect(() => {
+        fetchFeedbacks().then((testimonials) => {
+            setTestimonials(testimonials);
+            setInfoLoaded(true);
+        })
+    }, [])
+
     const { t } = useTranslation()
 
-    if (props.windowWidth > 1024) {
-        return(
+        return infoLoaded ? (
             <div className="flex flex-col gap-[24px]">
                 <div className="flex flex-row justify-between">
                     <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
                     <MemojiFeedbacks />
                 </div>
-                <div className="flex flex-row justify-between">
-                    <FeedbackGui text={t('feedback_gui')} name={"Guilherme Souza"} img={"./foto_gui.png"}/>
-                    <div className="flex flex-col gap-[10px]">
-                        <FeedbackGui text={t('feedback_migge')} name={"Lucas Migge"} img={"./foto_migge.png"}/>
-                    </div>
-                </div>
+                <Carousel>
+                    {testimonials.map((testimonial, index) => (
+                        <FeedbackGui key={index} name={testimonial.name} text={t(testimonial.text)} imageUrl={testimonial.imageUrl} />
+                    ))}
+                </Carousel>
             </div>  
+        ) : (
+            <p>Carregando...</p>
         )
-    }else{
-        return(
-            <div className="flex flex-col gap-[24px]">
-            <h3 className=" font-semibold text-[28px]">{t('feedbacks')}</h3>
-            <div className="flex flex-col gap-[10px]">
-                <div className="flex flex-row-reverse w-full">
-                    <div className="flex-grow"></div>
-                    <FeedbackGui text={t('feedback_gui')} name={"Guilherme Souza"} img={"./foto_gui.png"}/>
-                </div>
-                <div className="flex flex-row w-full">
-                    <div className="flex-grow"></div>
-                    <FeedbackGui text={t('feedback_migge')} name={"Lucas Migge"} img={"./foto_migge.png"}/>
-                </div>
-            </div>
-            </div>
-        )
-    }
 }
 
 export default Feedbacks;
