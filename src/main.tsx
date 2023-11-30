@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import { initI18n } from './1. locales/i18n.ts';
+import { CSSTransition } from 'react-transition-group';
 
 const LoadingScreen = () => (
   <div className="flex flex-col items-center justify-center h-screen">
@@ -20,12 +21,18 @@ const Root = () => {
     });
   }, []);
 
-  return translationsLoaded ? (
+  return (
     <React.StrictMode>
-      <App />
+      <CSSTransition
+        in={translationsLoaded}
+        timeout={500} // Tempo da transição em milissegundos
+        classNames="fade"
+        unmountOnExit
+      >
+        <App />
+      </CSSTransition>
+      {!translationsLoaded && <LoadingScreen />}
     </React.StrictMode>
-  ) : (
-    <LoadingScreen />
   );
 };
 

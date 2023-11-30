@@ -8,7 +8,7 @@ const MemojiFeedbacks = () => {
     return(
         <div className="flex flex-row gap-[10px] justify-end items-start">
             <p className="text-[14px] w-[100px] pt-[16px]">{t('que_pensam')}</p>
-            <img src="./memoji_feedbacks.png" className="w-[129px] h-[162]"></img>
+            <img src="./memoji_feedbacks.png" className="w-[86px] h-[108]"></img>
         </div>
     )
 }

@@ -31,10 +31,15 @@ const Content = () => {
     const containerStyle = {
         paddingLeft: `${Math.floor((90 / 1024 * 100))}%`,
         paddingRight: `${Math.floor((90 / 1024 * 100))}%`, // Use a porcentagem de padding
-      };
+    };
+
+    const fixedStyle = {
+      maxWidth: "1280px", // Defina a largura máxima desejada
+      margin: "0 auto", // Centralize o conteúdo
+    };
 
     return(
-        <div className=" flex flex-col gap-[80px] w-full items-start" style={containerStyle}>
+        <div className=" flex flex-col gap-[80px] w-full items-start" style={windowWidth > 1440 ? fixedStyle : containerStyle}>
             <div className="w-full" id="menu"><MacMenu windowWidth={windowWidth}/></div>
             <div id="about"><AboutMe windowWidth={windowWidth} /></div>
             <div id="portfolio" className="w-full"><Projects /></div>

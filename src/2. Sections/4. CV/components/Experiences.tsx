@@ -12,7 +12,7 @@ const Experiences = () => {
             <p className="text-[14px]">{t('projetos_relacionados')}:
                 <a href="https://apps.apple.com/br/app/witchie/id6454296859" className=" text-[#2E64C1] underline"> witchie</a>,
                 <a href="https://github.com/ditthales/InASheetOfPaper" className=" text-[#2E64C1] underline"> In a Sheet of Paper</a>,
-                <a href="https://github.com/miggelucas/Naturia" className=" text-[#2E64C1] underline"> Naturia</a>
+                <a href="https://apps.apple.com/br/app/receitinha/id1658205133" className=" text-[#2E64C1] underline"> Receitinha</a>
             </p>
             <p className="text-[14px]">{t('atividades_realizadas')}:</p>
             <ul className="list-disc list-inside text-[14px]">
