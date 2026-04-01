@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
-import { PROJECTS } from "./model/projects";
 import ProjectList from "./components/ProjectList/ProjectList";
 
 const Projects = () => {
