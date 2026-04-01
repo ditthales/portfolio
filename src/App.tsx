@@ -1,7 +1,7 @@
 import './App.css'
 import Content from './3. Content/Content.js'
 import RainbowLine from './3. Content/RainbowLine.js'
-import './1. locales/i18n.js'
+import './1. locales/i18n'
 
 function App() {
 

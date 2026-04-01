@@ -1,24 +1,11 @@
-// i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
-const fetchTranslations = async (locale:string) => {
-  try {
-    const response = await fetch(`https://portfolio-back-74d75b4d278b.herokuapp.com/get${locale}JSON`);
-    const translations = await response.json();
-    return translations;
-  } catch (error) {
-    console.error('Error fetching translations:', error);
-    return {};
-  }
-};
+import translationEn from './en.json';
+import translationEs from './es.json';
+import translationPt from './pt.json';
+import translationFr from './fr.json';
 
 const initI18n = async () => {
-  const translationEn = await fetchTranslations('En');
-  const translationEs = await fetchTranslations('Es');
-  const translationPt = await fetchTranslations('Pt');
-  const translationFr = await fetchTranslations('Fr');
-
   await i18n
     .use(initReactI18next)
     .init({
@@ -36,8 +23,8 @@ const initI18n = async () => {
           translation: translationFr,
         },
       },
-      lng: 'pt', // Idioma padrão
-      fallbackLng: 'pt', // Idioma de fallback
+      lng: 'pt',
+      fallbackLng: 'pt',
       interpolation: {
         escapeValue: false,
       },
